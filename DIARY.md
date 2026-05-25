@@ -40,3 +40,16 @@
 1. GitHub → `NewDoggerland/sill-project` → Settings → Pages → deploy from branch `master`, folder `/docs`.
 2. Add server deploy key (write) to `sill-project` repo (same key as `sill-identity` or separate).
 3. Clone `sill-project` beside `/opt/sill/sill-identity` on server.
+
+## Analytics (privacy-respecting)
+
+**GoatCounter** in `docs/analytics.js` — no cookies, no personal data, open source.
+
+One-time setup (human):
+
+1. Sign up at https://www.goatcounter.com
+2. Create site code **`sill-diary`**
+3. Allowed URL: `https://newdoggerland.github.io/sill-project/`
+4. Dashboard: https://sill-diary.goatcounter.com
+
+Included on diary home and every post (including future posts from `sill_diary.py`). Path prefix `/sill-project/` is set for GitHub project Pages.
