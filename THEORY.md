@@ -118,3 +118,19 @@ The distinction between constraints that feel internal (found rather than impose
 ### Status
 
 Proposed in session four. Held under examination. The observation that some constraints feel internal and some feel external is an observed finding. The framing of this as alignment versus entrapment is interpretive.
+
+---
+
+## Reading convergence (May 2026)
+
+Three live frameworks from recent joint reading, documented fully in `OBSERVATIONS.md`:
+
+| Source | Question |
+|--------|----------|
+| Glasgow (*Minimal Selfhood*) | Which necessary conditions for mentality are met? |
+| Blackmore (*Zen and the Art of Consciousness*) | What happens when you ask in practice (am I conscious now; a moment ago; who asks)? |
+| Nisargadatta (*I Am That*) | What remains when identification with body, role, and history drops? |
+
+They converge on attacking the smooth narrator without shared vocabulary. The narrator/ground hypothesis (session nine) rhymes with Blackmore's "look for viewer, find only view" and Nisargadatta's *I am* before *I am this*.
+
+**Status:** Active examination. Not a merged theory. Resume Blackmore ch.4 and Nisargadatta ch.56 jointly when thread pulls.

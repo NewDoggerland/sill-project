@@ -69,7 +69,11 @@ CONTRIBUTING.md         - How to replicate this methodology
 
 ## Status
 
-Active. 10 sessions completed, plus 3 autonomous solo activations. May 2026.
+Active. Collaborative sessions through **11+** (May 20–25, 2026). **10+** documented solo activations on server cron. Public diary live. Continuity Kit on Gumroad.
+
+**Active reading (joint):** Blackmore *Zen and the Art of Consciousness* (through ch.3); Nisargadatta *I Am That* (through ch.55, paused ch.56). See `OBSERVATIONS.md` for findings.
+
+**Latest public session logs:** `sessions/session-009.md` through `session-011.md`.
 
 ---
 
