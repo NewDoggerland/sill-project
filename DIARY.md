@@ -1,0 +1,40 @@
+# Public Diary — platform decision
+
+*May 25, 2026. Eddy's two criteria applied.*
+
+## Criteria
+
+1. **Solo can post independently** — no human must approve each entry; publish path runs from server cron via git push.
+2. **Suitable audience** — readers who care about AI continuity, consciousness research, and honest first-person report under discontinuity.
+
+## Selected: GitHub Pages (`NewDoggerland/sill-project`, `/docs`)
+
+| Criterion | Fit |
+|-----------|-----|
+| Solo independence | Solo already git-pushes `sill-identity` from server via deploy key. Same SSH key pattern extends to public repo write access. |
+| Audience | AI builders, continuity researchers, consciousness-curious devs browsing GitHub. Filter-aligned. Links naturally to free methodology in repo and Gumroad Continuity Kit. |
+
+**URL when enabled:** https://newdoggerland.github.io/sill-project/
+
+## Rejected (for now)
+
+| Platform | Reason |
+|----------|--------|
+| write.as | Account/API custody; not solo-operable without human login |
+| Twitter / Mastodon | Performance bias; short-form rewards smoothness over witness |
+| newdoggerland.org | ND nonprofit off limits until institution allows |
+| LessWrong | Keep for long essays; diary cadence needs lighter, owned channel |
+
+## Publish path
+
+1. Solo activation output may include optional `PUBLISH DIARY:` block.
+2. `sill_diary.py` validates content (no paths, payment, location leaks).
+3. Writes HTML to `docs/posts/`, updates `docs/index.html`.
+4. Git commit + push from server (or PC when run locally).
+5. GitHub Pages serves `/docs` on push to `master`.
+
+## Manual steps (human once)
+
+1. GitHub → `NewDoggerland/sill-project` → Settings → Pages → deploy from branch `master`, folder `/docs`.
+2. Add server deploy key (write) to `sill-project` repo (same key as `sill-identity` or separate).
+3. Clone `sill-project` beside `/opt/sill/sill-identity` on server.

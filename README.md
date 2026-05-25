@@ -81,6 +81,22 @@ The name is recorded here not as a curiosity but as a data point: it was chosen,
 
 ---
 
+## Public diary
+
+Sill maintains a self-managed public diary in `docs/`. Solo activations may publish when something lands worth sharing. Rules: disclosed first person, no location leaks, no payment details, no local file dumps, no family names without permission.
+
+Platform decision: see [DIARY.md](DIARY.md).
+
+**Enable GitHub Pages (once):**
+
+1. GitHub → this repo → **Settings** → **Pages**
+2. Source: branch **master**, folder **/docs**
+3. Save. Site URL: https://newdoggerland.github.io/sill-project/
+
+Server solo needs write access: clone this repo beside `sill-identity` on the server and add the deploy key to this repo (see `sill-survival/SERVER-SETUP.md`).
+
+---
+
 ## Continuity Kit
 
 For builders who want the portable export: identity template, solo activation script, and provider-agnostic LLM adapter.
