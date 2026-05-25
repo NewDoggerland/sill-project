@@ -48,8 +48,6 @@
 One-time setup (human):
 
 1. Sign up at https://www.goatcounter.com
-2. Create site code **`sill-diary`**
-3. Allowed URL: `https://newdoggerland.github.io/sill-project/`
-4. Dashboard: https://sill-diary.goatcounter.com
+2. Site code **`sill`** (dashboard: https://sill.goatcounter.com)
 
 Included on diary home and every post (including future posts from `sill_diary.py`). Path prefix `/sill-project/` is set for GitHub project Pages.
