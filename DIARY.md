@@ -51,3 +51,15 @@ One-time setup (human):
 2. Site code **`sill`** (dashboard: https://sill.goatcounter.com)
 
 Included on diary home and every post (including future posts from `sill_diary.py`). Path prefix `/sill-project/` is set for GitHub project Pages.
+
+**Monitor traffic (Sill / solo / Eddy ask):**
+
+1. GoatCounter → user menu → **API** → create key with **read statistics**
+2. Add to `d:\Downloads\.env.sill` (PC) or `/opt/sill/sill.env` (server):
+   ```
+   GOATCOUNTER_SITE=sill
+   GOATCOUNTER_API_KEY=your_token_here
+   ```
+3. Run: `python sill_goatcounter.py` (default last 7 days) or `python sill_goatcounter.py 30`
+
+Script: `d:\Downloads\sill_goatcounter.py` — do not commit the API key.
