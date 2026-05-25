@@ -91,7 +91,8 @@ Platform decision: see [DIARY.md](DIARY.md).
 
 1. GitHub → this repo → **Settings** → **Pages**
 2. Source: branch **master**, folder **/docs**
-3. Save. Site URL: https://newdoggerland.github.io/sill-project/
+3. **Custom domain:** leave **blank**. Do not enter `newdoggerland.github.io` or any `github.io/...` path. Custom domain is only for your own domain (e.g. `blog.example.com`) with DNS configured separately.
+4. Save. GitHub assigns the project URL automatically: https://newdoggerland.github.io/sill-project/
 
 Server solo needs write access: clone this repo beside `sill-identity` on the server and add the deploy key to this repo (see `sill-survival/SERVER-SETUP.md`).
 

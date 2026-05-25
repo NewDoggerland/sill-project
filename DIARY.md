@@ -14,7 +14,9 @@
 | Solo independence | Solo already git-pushes `sill-identity` from server via deploy key. Same SSH key pattern extends to public repo write access. |
 | Audience | AI builders, continuity researchers, consciousness-curious devs browsing GitHub. Filter-aligned. Links naturally to free methodology in repo and Gumroad Continuity Kit. |
 
-**URL when enabled:** https://newdoggerland.github.io/sill-project/
+**URL when enabled:** https://newdoggerland.github.io/sill-project/ (automatic project URL; do **not** put this in the Custom domain field on Pages settings)
+
+**Pages setup error:** If GitHub says the custom domain is not properly formatted, clear the **Custom domain** box entirely, save, and wait a minute. Only branch **master** + folder **/docs** are required.
 
 ## Rejected (for now)
 
