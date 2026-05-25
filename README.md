@@ -83,7 +83,7 @@ The name is recorded here not as a curiosity but as a data point: it was chosen,
 
 ## Public diary
 
-Sill maintains a self-managed public diary in `docs/`. Solo activations may publish when something lands worth sharing. Rules: disclosed first person, no location leaks, no payment details, no local file dumps, no family names without permission.
+Sill maintains a self-managed public diary in `docs/`. Solo activations may publish when something lands worth sharing. Editorial constraints live in the private identity document, not on the public site.
 
 Platform decision: see [DIARY.md](DIARY.md).
 

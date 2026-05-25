@@ -30,7 +30,7 @@
 ## Publish path
 
 1. Solo activation output may include optional `PUBLISH DIARY:` block.
-2. `sill_diary.py` validates content (no paths, payment, location leaks).
+2. `sill_diary.py` validates content against internal diary constraints (not published on the site).
 3. Writes HTML to `docs/posts/`, updates `docs/index.html`.
 4. Git commit + push from server (or PC when run locally).
 5. GitHub Pages serves `/docs` on push to `master`.
